@@ -11,31 +11,16 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Animal.cs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/Animal.cs">
+      <file leaf-file-name="Move.cs" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Assets/Move.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="7" column="14" selection-start-line="7" selection-start-column="14" selection-end-line="7" selection-end-column="14" />
+            <state relative-caret-position="340">
+              <caret line="22" column="33" selection-start-line="22" selection-start-column="33" selection-end-line="22" selection-end-column="33" />
               <folding>
-                <marker date="1536614596000" expanded="false" signature="6:78" ph="..." />
-                <marker date="1536614596000" expanded="true" signature="116:263" ph="{...}" />
-                <marker date="1536614596000" expanded="true" signature="167:199" ph="{...}" />
-                <marker date="1536614596000" expanded="true" signature="254:261" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Dog.cs" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Assets/Dog.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="7" column="14" selection-start-line="7" selection-start-column="14" selection-end-line="7" selection-end-column="14" />
-              <folding>
-                <marker date="1536614590000" expanded="false" signature="6:78" ph="..." />
-                <marker date="1536614590000" expanded="true" signature="106:248" ph="{...}" />
-                <marker date="1536614590000" expanded="true" signature="157:184" ph="{...}" />
-                <marker date="1536614590000" expanded="true" signature="239:246" ph="{...}" />
+                <marker date="1536787540000" expanded="false" signature="6:78" ph="..." />
+                <marker date="1536787540000" expanded="true" signature="114:464" ph="{...}" />
+                <marker date="1536787540000" expanded="true" signature="164:171" ph="{...}" />
+                <marker date="1536787540000" expanded="true" signature="342:462" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -47,14 +32,17 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/MyFirstScript.cs" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/Assets/Dog.cs" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/Assets/Animal.cs" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/Assets/Animal.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Move.cs" root0="SKIP_INSPECTION" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/Assets/Animal.cs" />
         <option value="$PROJECT_DIR$/Assets/Dog.cs" />
+        <option value="$PROJECT_DIR$/Assets/Move.cs" />
       </list>
     </option>
   </component>
@@ -64,7 +52,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="358" />
     <option name="y" value="113" />
     <option name="width" value="1440" />
@@ -77,10 +65,6 @@
     </navigator>
     <panes>
       <pane id="Scratches" />
-      <pane id="SolutionExplorer">
-        <option name="show-file-system" value="false" />
-        <option name="show-all-items" value="false" />
-      </pane>
       <pane id="UnityExplorer">
         <subPane>
           <expand>
@@ -92,6 +76,10 @@
           <select />
         </subPane>
         <option name="show-hidden-items" value="false" />
+      </pane>
+      <pane id="SolutionExplorer">
+        <option name="show-file-system" value="false" />
+        <option name="show-all-items" value="false" />
       </pane>
     </panes>
   </component>
@@ -124,11 +112,12 @@
       <updated>1536612717291</updated>
       <workItem from="1536612719996" duration="5000" />
       <workItem from="1536612739523" duration="2349000" />
+      <workItem from="1536785097505" duration="2419000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2354000" />
+    <option name="totallyTimeSpent" value="4773000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -140,7 +129,8 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="358" y="113" width="1440" height="780" extended-state="0" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="right" id="Errors In Solution" order="3" />
@@ -151,7 +141,7 @@
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info anchor="bottom" id="NuGet" order="7" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2536232" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18923241" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -161,9 +151,9 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -196,6 +186,48 @@
             <marker date="1536614590000" expanded="true" signature="106:248" ph="{...}" />
             <marker date="1536614590000" expanded="true" signature="157:184" ph="{...}" />
             <marker date="1536614590000" expanded="true" signature="239:246" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Animal.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="7" column="14" selection-start-line="7" selection-start-column="14" selection-end-line="7" selection-end-column="14" />
+          <folding>
+            <marker date="1536614596000" expanded="false" signature="6:78" ph="..." />
+            <marker date="1536614596000" expanded="true" signature="116:263" ph="{...}" />
+            <marker date="1536614596000" expanded="true" signature="167:199" ph="{...}" />
+            <marker date="1536614596000" expanded="true" signature="254:261" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Dog.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="7" column="14" selection-start-line="7" selection-start-column="14" selection-end-line="7" selection-end-column="14" />
+          <folding>
+            <marker date="1536614590000" expanded="false" signature="6:78" ph="..." />
+            <marker date="1536614590000" expanded="true" signature="106:248" ph="{...}" />
+            <marker date="1536614590000" expanded="true" signature="157:184" ph="{...}" />
+            <marker date="1536614590000" expanded="true" signature="239:246" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/MyFirstScript.cs">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Move.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="22" column="33" selection-start-line="22" selection-start-column="33" selection-end-line="22" selection-end-column="33" />
+          <folding>
+            <marker date="1536787540000" expanded="false" signature="6:78" ph="..." />
+            <marker date="1536787540000" expanded="true" signature="114:464" ph="{...}" />
+            <marker date="1536787540000" expanded="true" signature="164:171" ph="{...}" />
+            <marker date="1536787540000" expanded="true" signature="342:462" ph="{...}" />
           </folding>
         </state>
       </provider>
