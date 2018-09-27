@@ -1,28 +1,29 @@
-﻿using UnityEngine;
-using UnityEngine.Events;
+﻿using System;
+using UnityEngine;
 
 [CreateAssetMenu]
 public class AddValue : ScriptableObject
 {
-    public FloatData ValueObj;
-    public FloatData MaxValue;
-    public FloatData MinValue;
-    
-    public UnityEvent EventMax;
-    public UnityEvent EventMin;
+    public FloatData Data;
 
     public void AddValueToObj(FloatData data)
     {
-        ValueObj.Value += data.Value;
+        data.Value += Data.Value;
+        Console.WriteLine("Added To Value");
+    }
 
-        if (ValueObj.Value >= MaxValue.Value)
-        {
-            EventMax.Invoke();
-        }
-        
-        if (ValueObj.Value <= MinValue.Value)
-        {
-            EventMin.Invoke();
-        }
+    public void MinusValueToObj(FloatData data)
+    {
+        data.Value -= Data.Value;
+    }
+
+    public void MultiplyValueToObj(FloatData data)
+    {
+        data.Value *= Data.Value;
+    }
+
+    public void DivideValueToObj(FloatData data)
+    {
+        data.Value /= Data.Value;
     }
 }
