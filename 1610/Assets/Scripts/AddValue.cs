@@ -9,7 +9,6 @@ public class AddValue : ScriptableObject
     public void AddValueToObj(FloatData data)
     {
         data.Value += Data.Value;
-        Console.WriteLine("Added To Value");
     }
 
     public void MinusValueToObj(FloatData data)
