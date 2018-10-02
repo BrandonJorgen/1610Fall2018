@@ -4,11 +4,6 @@ using UnityEngine;
 
 public class Move : MonoBehaviour {
 
-	// Use this for initialization
-	void Start () {
-		
-	}
-
 	public CharacterController Character;
 	public float Speed;
 	public Vector3 MoveSpeed;
@@ -23,3 +18,4 @@ public class Move : MonoBehaviour {
 		Character.Move(MoveSpeed);
 	}
 }
+

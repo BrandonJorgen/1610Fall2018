@@ -7,7 +7,8 @@ public class TriggerEventBehavior : MonoBehaviour
 {
 
 	public UnityEvent Enable;
-	public UnityEvent Trigger;
+	public UnityEvent TriggerEnter;
+	public UnityEvent TriggerExit;
 	
 	private void OnEnable()
 	{
@@ -16,6 +17,11 @@ public class TriggerEventBehavior : MonoBehaviour
 
 	private void OnTriggerEnter()
 	{
-		Trigger.Invoke();
+		TriggerEnter.Invoke();
+	}
+
+	private void OnTriggerExit()
+	{
+		TriggerExit.Invoke();
 	}
 }
