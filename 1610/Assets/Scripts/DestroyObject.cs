@@ -11,7 +11,7 @@ public class DestroyObject : MonoBehaviour {
 
 	private void OnCollisionEnter(Collision other)
 	{
-		Destroy(gameObject);
 		Destroy(other.gameObject);
+		Destroy(gameObject);
 	}
 }
