@@ -292,18 +292,26 @@
       <workItem from="1538512908965" duration="3894000" />
 <<<<<<< Updated upstream
       <workItem from="1538517041842" duration="3747000" />
+<<<<<<< Updated upstream
       <workItem from="1538598869635" duration="4288000" />
 =======
       <workItem from="1538517041842" duration="3799000" />
+>>>>>>> Stashed changes
+=======
+      <workItem from="1538598869635" duration="4315000" />
 >>>>>>> Stashed changes
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     <option name="totallyTimeSpent" value="41842000" />
 =======
     <option name="totallyTimeSpent" value="37606000" />
+>>>>>>> Stashed changes
+=======
+    <option name="totallyTimeSpent" value="41869000" />
 >>>>>>> Stashed changes
   </component>
   <component name="TodoView">
@@ -318,9 +326,12 @@
   <component name="ToolWindowManager">
 <<<<<<< Updated upstream
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+<<<<<<< Updated upstream
     <editor active="true" />
 =======
     <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
