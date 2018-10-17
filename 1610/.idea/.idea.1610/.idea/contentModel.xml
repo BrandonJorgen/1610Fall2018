@@ -19,15 +19,16 @@
           <e p="PowerUpID.cs" t="Include" />
           <e p="Romrell" t="Include">
             <e p="AddMoney.cs" t="Include" />
-            <e p="AddValue.cs" t="Include" />
             <e p="Animal.cs" t="Include" />
             <e p="Dog.cs" t="Include" />
             <e p="Move.cs" t="Include" />
             <e p="NameId.cs" t="Include" />
             <e p="PowerUp.cs" t="Include" />
+            <e p="ValueChange.cs" t="Include" />
             <e p="Variables.cs" t="Include" />
           </e>
           <e p="TriggerEventBehavior.cs" t="Include" />
+          <e p="UpdateImageValue.cs" t="Include" />
           <e p="WhatCanSeeIt.cs" t="Include" />
         </e>
       </e>

@@ -1,27 +1,27 @@
 ﻿using UnityEngine;
 
 [CreateAssetMenu]
-public class AddValue : ScriptableObject
+public class ValueChange : ScriptableObject
 {
     public FloatData Data;
 
     public void AddValueToObj(FloatData data)
     {
-        data.Value += Data.Value;
+        Data.Value += data.Value;
     }
 
     public void MinusValueToObj(FloatData data)
     {
-        data.Value -= Data.Value;
+        Data.Value -= data.Value;
     }
 
     public void MultiplyValueToObj(FloatData data)
     {
-        data.Value *= Data.Value;
+        Data.Value *= data.Value;
     }
 
     public void DivideValueToObj(FloatData data)
     {
-        data.Value /= Data.Value;
+        Data.Value /= data.Value;
     }
 }
