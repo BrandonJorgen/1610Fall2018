@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3065ae470e077fc48a9649b69139cf40, type: 3}
+  m_Name: AmmoItems
+  m_EditorClassIdentifier: 
+  ObjectList:
+  - {fileID: 11400000, guid: 465620fd7a541534c8f3f376dac510f8, type: 2}
+  - {fileID: 11400000, guid: 87d0da602fd1b9d4a8bcd9b9850d6820, type: 2}
+  - {fileID: 11400000, guid: 63482491961787f42bcb2d91bc39a338, type: 2}

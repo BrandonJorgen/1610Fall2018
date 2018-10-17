@@ -9,9 +9,10 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 3065ae470e077fc48a9649b69139cf40, type: 3}
-  m_Name: AmmoPickups
+  m_Name: PickupList
   m_EditorClassIdentifier: 
   ObjectList:
-  - {fileID: 11400000, guid: 465620fd7a541534c8f3f376dac510f8, type: 2}
-  - {fileID: 11400000, guid: 87d0da602fd1b9d4a8bcd9b9850d6820, type: 2}
-  - {fileID: 11400000, guid: 63482491961787f42bcb2d91bc39a338, type: 2}
+  - {fileID: 11400000, guid: e0fc1fba29287e449951969dcb0dde1f, type: 2}
+  - {fileID: 11400000, guid: 52ec0fbaa3e84444a801c16aea208a2e, type: 2}
+  - {fileID: 11400000, guid: e107fe5f137619a439910a3beab6a7b6, type: 2}
+  - {fileID: 11400000, guid: 87be30a5d14ea0546a26beb1770295a0, type: 2}
