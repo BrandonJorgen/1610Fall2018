@@ -5,6 +5,7 @@ public class BasicAi : MonoBehaviour
 {
 
 	public Transform Destination;
+	public Transform FinalDestination;
 	private NavMeshAgent agent;
 	void Start ()
 	{
@@ -13,6 +14,13 @@ public class BasicAi : MonoBehaviour
 	
 	void Update ()
 	{
-		if (Destination != null) agent.destination = Destination.position;
+		if (Destination != null)
+		{
+			agent.destination = Destination.position;
+		}
+		else
+		{
+			agent.destination = FinalDestination.position;
+		}
 	}
 }
