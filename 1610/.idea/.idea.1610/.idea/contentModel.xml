@@ -30,6 +30,7 @@
           <e p="LocalVars.cs" t="Include" />
           <e p="Loops.cs" t="Include" />
           <e p="MouseEventBehavior.cs" t="Include" />
+          <e p="ObectInstantiate.cs" t="Include" />
           <e p="ObjectCollection.cs" t="Include" />
           <e p="PowerUpID.cs" t="Include" />
           <e p="Romrell" t="Include">

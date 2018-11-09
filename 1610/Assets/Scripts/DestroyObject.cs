@@ -1,11 +1,14 @@
 ﻿using System.Collections;
 using UnityEngine;
 
-public class DestroyObject : MonoBehaviour {
+public class DestroyObject : MonoBehaviour
+{
+
+	public float LifetimeSeconds = 2;
 	
 	private IEnumerator Start()
 	{
-		yield return new WaitForSeconds(2);
+		yield return new WaitForSeconds(LifetimeSeconds);
 		Destroy(gameObject);
 	}
 
