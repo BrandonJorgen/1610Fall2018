@@ -9,25 +9,32 @@
       <e p="Assets" t="Include">
         <e p="Scripts" t="Include">
           <e p="AddToCollection.cs" t="Include" />
-          <e p="BasicAi.cs" t="Include" />
-          <e p="CharacterMover.cs" t="Include" />
-          <e p="DestroyObject.cs" t="Include" />
           <e p="EventRepeat.cs" t="Include" />
-          <e p="FloatData.cs" t="Include" />
           <e p="GameStates.cs" t="Include" />
           <e p="IfStatements.cs" t="Include" />
           <e p="ImprovedZeldaTwo" t="Include">
-            <e p="HealthAmount.cs" t="Include" />
-            <e p="HealthSwitch.cs" t="Include" />
-            <e p="Inventory.cs" t="Include" />
-            <e p="ItemSwitch.cs" t="Include" />
-            <e p="LivesSwitch.cs" t="Include" />
-            <e p="PlayerControl.cs" t="Include" />
-            <e p="PlayerLives.cs" t="Include" />
-            <e p="WeaponList.cs" t="Include" />
-            <e p="WeaponSwitch.cs" t="Include" />
+            <e p="Scripts" t="Include">
+              <e p="BasicAi.cs" t="Include" />
+              <e p="CharacterMover.cs" t="Include" />
+              <e p="DestroyObject.cs" t="Include" />
+              <e p="FloatData.cs" t="Include" />
+              <e p="HealthAmount.cs" t="Include" />
+              <e p="HealthBarScript.cs" t="Include" />
+              <e p="HealthSwitch.cs" t="Include" />
+              <e p="Instancing.cs" t="Include" />
+              <e p="Inventory.cs" t="Include" />
+              <e p="ItemSwitch.cs" t="Include" />
+              <e p="LivesSwitch.cs" t="Include" />
+              <e p="PlayerControl.cs" t="Include" />
+              <e p="PlayerLives.cs" t="Include" />
+              <e p="TriggerEventBehavior.cs" t="Include" />
+              <e p="UpdateImageValue.cs" t="Include" />
+              <e p="UpdateText.cs" t="Include" />
+              <e p="ValueChange.cs" t="Include" />
+              <e p="WeaponList.cs" t="Include" />
+              <e p="WeaponSwitch.cs" t="Include" />
+            </e>
           </e>
-          <e p="Instancing.cs" t="Include" />
           <e p="LocalVars.cs" t="Include" />
           <e p="Loops.cs" t="Include" />
           <e p="MouseEventBehavior.cs" t="Include" />
@@ -41,12 +48,9 @@
             <e p="Move.cs" t="Include" />
             <e p="NameId.cs" t="Include" />
             <e p="PowerUp.cs" t="Include" />
-            <e p="ValueChange.cs" t="Include" />
             <e p="Variables.cs" t="Include" />
           </e>
           <e p="SwitchSatements.cs" t="Include" />
-          <e p="TriggerEventBehavior.cs" t="Include" />
-          <e p="UpdateImageValue.cs" t="Include" />
           <e p="WhatCanSeeIt.cs" t="Include" />
         </e>
       </e>
