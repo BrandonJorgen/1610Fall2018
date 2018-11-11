@@ -19,7 +19,7 @@ public class PlayerControl : MonoBehaviour
 		if (controller.isGrounded)
 		{
             
-			position.Set(0, 0, MoveSpeed * Input.GetAxis("Horizontal"));
+			position.Set(MoveSpeed * Input.GetAxis("Horizontal"), 0, 0);
 			position = transform.TransformDirection(position);
             
 			if (Input.GetButton("Jump"))
