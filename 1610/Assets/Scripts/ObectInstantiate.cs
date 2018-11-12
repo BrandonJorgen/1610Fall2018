@@ -8,7 +8,6 @@ public class ObectInstantiate : MonoBehaviour
 	public GameObject Instance;
 	public float Seconds = 2;
 	public float StartDelaySeconds = 0;
-	private int i = 0;
 	
 	// Use this for initialization
 	IEnumerator Start () {
