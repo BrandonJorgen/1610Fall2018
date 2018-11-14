@@ -50,6 +50,7 @@
             <e p="Variables.cs" t="Include" />
           </e>
           <e p="SwitchSatements.cs" t="Include" />
+          <e p="UpdateAnims.cs" t="Include" />
           <e p="WhatCanSeeIt.cs" t="Include" />
         </e>
       </e>
