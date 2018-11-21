@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ContentModelStore">
-    <e p="C:\Users\10782743\.Rider2018.1\system\resharper-host\local\Transient\ReSharperHost\v12\SolutionCaches\_1610.1468415321.00" t="ExcludeRecursive" />
-    <e p="C:\Users\10782743\Documents\Gitrepo\1610Fall2018\1610" t="IncludeRecursive">
+    <e p="C:\Users\Brandon\.Rider2018.2\system\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\Brandon\.Rider2018.2\system\resharper-host\local\Transient\ReSharperHost\v182\SolutionCaches\_1610.-339486081.00" t="ExcludeRecursive" />
+    <e p="C:\Users\Brandon\Documents\Important\School\Fall 2018-Spring 2019\DGM 1610 (Scripting)\1610Fall2018\1610" t="IncludeRecursive">
       <e p="1610.sln" t="IncludeFlat" />
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
@@ -18,8 +19,6 @@
               <e p="DestroyObject.cs" t="Include" />
               <e p="FloatData.cs" t="Include" />
               <e p="HealthAmount.cs" t="Include" />
-              <e p="HealthBarScript.cs" t="Include" />
-              <e p="HealthSwitch.cs" t="Include" />
               <e p="Instancing.cs" t="Include" />
               <e p="Inventory.cs" t="Include" />
               <e p="ItemSwitch.cs" t="Include" />
@@ -28,8 +27,10 @@
               <e p="PlayerLives.cs" t="Include" />
               <e p="TriggerEventBehavior.cs" t="Include" />
               <e p="UpdateImageValue.cs" t="Include" />
+              <e p="UpdatePlayerHealth.cs" t="Include" />
               <e p="UpdateText.cs" t="Include" />
               <e p="ValueChange.cs" t="Include" />
+              <e p="ValueCheckAndEvent.cs" t="Include" />
               <e p="WeaponList.cs" t="Include" />
               <e p="WeaponSwitch.cs" t="Include" />
             </e>

@@ -31,30 +31,18 @@ public class PlayerControl : MonoBehaviour
 		}
 		position.y -= Gravity * Time.deltaTime;
 		controller.Move(position * Time.deltaTime);
-
-		if (Input.GetAxis("Horizontal") < 0)
-		{
-			//ROTATION ON Z AXIS HERE
-		}
-
+		
+		//Generic Attack
 		if (Input.GetButton("Fire3"))
 		{
 			AttackDown.Invoke();
-			Debug.Log("You are pressing Fire3");
+			Debug.Log("You are Pressing the Attack Button");
 		}
 		else
 		{
 			AttackUp.Invoke();
 		}
-
-		if (Input.GetAxis("Vertical") > 0 && Input.GetButton("Fire3"))
-		{
-			UpwardAttackDown.Invoke();
-			Debug.Log("You are Pressing Up and Attack");
-		}
-		else
-		{
-			UpwardAttackUp.Invoke();
-		}
+		//Up and Attack Pressed
+		//In Air + Down and Attack Pressed
 	}
 }
