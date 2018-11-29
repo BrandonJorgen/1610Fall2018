@@ -1,13 +1,10 @@
 fileFormatVersion: 2
-guid: fa79181234da70c41be60a970c9b6969
+guid: cff2a95df6b105b4a9b2aeb41c6a411f
 TextureImporter:
   fileIDToRecycleName:
-    21300000: GrowingFlameSheet_0
-    21300002: Flame_4
-    21300004: Flame_3
-    21300006: Flame_2
-    21300008: Flame_1
-    21300010: Flame_0
+    21300000: LowHpText
+    21300002: FullBagText
+    21300004: DamageText
   externalObjects: {}
   serializedVersion: 5
   mipmaps:
@@ -37,7 +34,7 @@ TextureImporter:
     serializedVersion: 2
     filterMode: -1
     aniso: -1
-    mipBias: -100
+    mipBias: -1
     wrapU: 1
     wrapV: 1
     wrapW: -1
@@ -88,33 +85,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: GrowingFlameSheet_0
+      name: LowHpText
       rect:
         serializedVersion: 2
-        x: 407
-        y: 210
-        width: 99
-        height: 129
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: df0187718bf22ed478e589624289d5c3
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Flame_4
-      rect:
-        serializedVersion: 2
-        x: 412
-        y: 219
-        width: 81
-        height: 109
+        x: 151
+        y: 737
+        width: 710
+        height: 169
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -122,18 +99,38 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8d4f8fae94c4ca54cae129b6de526a35
+      spriteID: ba856d682d7481f4291a8be833d1e66c
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Flame_3
+      name: FullBagText
       rect:
         serializedVersion: 2
-        x: 295
-        y: 220
-        width: 71
+        x: 204
+        y: 425
+        width: 583
+        height: 172
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91bedcc20fa6b6349be420605ccaf7ff
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DamageText
+      rect:
+        serializedVersion: 2
+        x: 388
+        y: 199
+        width: 227
         height: 101
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -142,67 +139,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b31aa8bcc1b9f5845a49dd19abecb290
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Flame_2
-      rect:
-        serializedVersion: 2
-        x: 188
-        y: 222
-        width: 52
-        height: 81
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: f2ce9121228e8d84294b5d988884efc1
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Flame_1
-      rect:
-        serializedVersion: 2
-        x: 87
-        y: 223
-        width: 48
-        height: 58
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 2ed8eeae0e2f49547a11b3323f869efa
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Flame_0
-      rect:
-        serializedVersion: 2
-        x: 20
-        y: 224
-        width: 30
-        height: 24
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: fb6f95ff867f32c468d75188b3b4d966
+      spriteID: c2587e4f8018b8c46bbe941a9774caf6
       vertices: []
       indices: 
       edges: []
@@ -210,7 +147,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 1d4b84a4abed7224dad769351e955f2c
+    spriteID: b923f489a6dc34f4ab500d235ecf9c82
     vertices: []
     indices: 
     edges: []

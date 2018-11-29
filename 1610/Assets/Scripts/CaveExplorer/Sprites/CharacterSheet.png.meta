@@ -1,13 +1,10 @@
 fileFormatVersion: 2
-guid: fa79181234da70c41be60a970c9b6969
+guid: 63b33b86baabe0941b76831729a4cb10
 TextureImporter:
   fileIDToRecycleName:
-    21300000: GrowingFlameSheet_0
-    21300002: Flame_4
-    21300004: Flame_3
-    21300006: Flame_2
-    21300008: Flame_1
-    21300010: Flame_0
+    21300000: CharacterBody
+    21300002: CharacterArm
+    21300004: CharacterLeg
   externalObjects: {}
   serializedVersion: 5
   mipmaps:
@@ -37,7 +34,7 @@ TextureImporter:
     serializedVersion: 2
     filterMode: -1
     aniso: -1
-    mipBias: -100
+    mipBias: -1
     wrapU: 1
     wrapV: 1
     wrapW: -1
@@ -88,13 +85,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: GrowingFlameSheet_0
+      name: CharacterBody
       rect:
         serializedVersion: 2
-        x: 407
-        y: 210
-        width: 99
-        height: 129
+        x: 98
+        y: 370
+        width: 149
+        height: 285
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -102,107 +99,47 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: df0187718bf22ed478e589624289d5c3
+      spriteID: 4cd121e1f0d9a3249b3b5a8597e5d03c
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Flame_4
+      name: CharacterArm
       rect:
         serializedVersion: 2
-        x: 412
-        y: 219
-        width: 81
-        height: 109
+        x: 490
+        y: 409
+        width: 54
+        height: 155
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8d4f8fae94c4ca54cae129b6de526a35
+      spriteID: 6bf1f08c81a7f00438e332b3ac7f60f0
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Flame_3
+      name: CharacterLeg
       rect:
         serializedVersion: 2
-        x: 295
-        y: 220
-        width: 71
-        height: 101
+        x: 780
+        y: 371
+        width: 98
+        height: 207
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b31aa8bcc1b9f5845a49dd19abecb290
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Flame_2
-      rect:
-        serializedVersion: 2
-        x: 188
-        y: 222
-        width: 52
-        height: 81
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: f2ce9121228e8d84294b5d988884efc1
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Flame_1
-      rect:
-        serializedVersion: 2
-        x: 87
-        y: 223
-        width: 48
-        height: 58
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 2ed8eeae0e2f49547a11b3323f869efa
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Flame_0
-      rect:
-        serializedVersion: 2
-        x: 20
-        y: 224
-        width: 30
-        height: 24
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: fb6f95ff867f32c468d75188b3b4d966
+      spriteID: 9dddd501bb04da348ad7c70af9e130d3
       vertices: []
       indices: 
       edges: []
@@ -210,7 +147,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 1d4b84a4abed7224dad769351e955f2c
+    spriteID: c2806a0d9f2ae45409f08ab7053ccc30
     vertices: []
     indices: 
     edges: []

@@ -1,13 +1,17 @@
 fileFormatVersion: 2
-guid: fa79181234da70c41be60a970c9b6969
+guid: d8ddceea3cfa0f746a34ea5bba52985c
 TextureImporter:
   fileIDToRecycleName:
-    21300000: GrowingFlameSheet_0
-    21300002: Flame_4
-    21300004: Flame_3
-    21300006: Flame_2
-    21300008: Flame_1
-    21300010: Flame_0
+    21300000: Zero
+    21300002: One
+    21300004: Two
+    21300006: Three
+    21300008: Four
+    21300010: Five
+    21300012: Six
+    21300014: Seven
+    21300016: Eight
+    21300018: Nine
   externalObjects: {}
   serializedVersion: 5
   mipmaps:
@@ -37,7 +41,7 @@ TextureImporter:
     serializedVersion: 2
     filterMode: -1
     aniso: -1
-    mipBias: -100
+    mipBias: -1
     wrapU: 1
     wrapV: 1
     wrapW: -1
@@ -88,13 +92,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: GrowingFlameSheet_0
+      name: Zero
       rect:
         serializedVersion: 2
-        x: 407
-        y: 210
-        width: 99
-        height: 129
+        x: 91
+        y: 543
+        width: 125
+        height: 182
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -102,107 +106,187 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: df0187718bf22ed478e589624289d5c3
+      spriteID: 90a10608b7e434f40bf80e17db6bd2dc
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Flame_4
+      name: One
       rect:
         serializedVersion: 2
-        x: 412
-        y: 219
-        width: 81
-        height: 109
+        x: 284
+        y: 555
+        width: 106
+        height: 187
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8d4f8fae94c4ca54cae129b6de526a35
+      spriteID: 3efdab3251a707c4284d2f072e29ad53
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Flame_3
+      name: Two
       rect:
         serializedVersion: 2
-        x: 295
-        y: 220
-        width: 71
-        height: 101
+        x: 444
+        y: 560
+        width: 133
+        height: 160
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b31aa8bcc1b9f5845a49dd19abecb290
+      spriteID: 380e883ebdb486749bc4790004f40e9c
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Flame_2
+      name: Three
       rect:
         serializedVersion: 2
-        x: 188
-        y: 222
-        width: 52
-        height: 81
+        x: 607
+        y: 573
+        width: 109
+        height: 149
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f2ce9121228e8d84294b5d988884efc1
+      spriteID: 788f91c61d05f364882a8c1edab1522e
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Flame_1
+      name: Four
       rect:
         serializedVersion: 2
-        x: 87
-        y: 223
-        width: 48
-        height: 58
+        x: 819
+        y: 577
+        width: 82
+        height: 144
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2ed8eeae0e2f49547a11b3323f869efa
+      spriteID: 1ee9533daaf90524e9551c79d3f6fad7
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Flame_0
+      name: Five
       rect:
         serializedVersion: 2
-        x: 20
-        y: 224
-        width: 30
-        height: 24
+        x: 187
+        y: 326
+        width: 107
+        height: 142
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fb6f95ff867f32c468d75188b3b4d966
+      spriteID: 1308792baa66913428adff262337da3a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Six
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 311
+        width: 84
+        height: 171
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ff5fcd7ecb84de4c8ac53dab282fb33
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Seven
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 323
+        width: 96
+        height: 142
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc52eaaf6c17f0f4caf1f11cf5de8604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eight
+      rect:
+        serializedVersion: 2
+        x: 630
+        y: 320
+        width: 99
+        height: 138
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3ab33a1c1516394cbd5ec6fcf5bce6f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nine
+      rect:
+        serializedVersion: 2
+        x: 760
+        y: 312
+        width: 79
+        height: 160
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7b6cf3c71dbcd94c872927779209cb5
       vertices: []
       indices: 
       edges: []
@@ -210,7 +294,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 1d4b84a4abed7224dad769351e955f2c
+    spriteID: 510d91024688b984ea71e73caff4ece7
     vertices: []
     indices: 
     edges: []
