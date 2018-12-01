@@ -14,6 +14,21 @@ TextureImporter:
     21300018: CaveFloorAngle
     21300020: CaveFloorCurve
     21300022: Stalagmites
+    21300024: Wall01
+    21300026: Ground01
+    21300028: Ground02
+    21300030: Pillar01
+    21300032: Wall02
+    21300034: Corner01
+    21300036: Entrance01
+    21300038: Corner02
+    21300040: Ramp01
+    21300042: Ramp02
+    21300044: Pillar03
+    21300046: Pillar04
+    21300048: Pillar02
+    21300050: Stalagmites01
+    21300052: WallArt01
   externalObjects: {}
   serializedVersion: 5
   mipmaps:
@@ -94,13 +109,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: StalagtiteLanding
+      name: Wall01
       rect:
         serializedVersion: 2
-        x: 124
-        y: 772
-        width: 192
-        height: 137
+        x: 80
+        y: 818
+        width: 102
+        height: 168
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -108,19 +123,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 276e0502a27116e4a87e2ce011f0750f
+      spriteID: 66e9036a3baa8654baec31c6ab81d43c
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CaveCorner1
+      name: Ground01
       rect:
         serializedVersion: 2
-        x: 442
-        y: 763
-        width: 132
-        height: 210
+        x: 301
+        y: 791
+        width: 161
+        height: 150
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,19 +143,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e18a6c6183f86414a93c76fa47cb5930
+      spriteID: 5094f23cd3e7a28468e46150ab159517
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CaveCorner2
+      name: Ground02
       rect:
         serializedVersion: 2
-        x: 729
-        y: 777
-        width: 105
-        height: 129
+        x: 512
+        y: 781
+        width: 161
+        height: 182
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -148,19 +163,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cdcaa70a206169b4c8dd6de5858a99e1
+      spriteID: e181279a71d18f94c96c9297371b7560
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CaveWall1
+      name: Pillar01
       rect:
         serializedVersion: 2
-        x: 183
-        y: 572
-        width: 127
-        height: 155
+        x: 744
+        y: 527
+        width: 196
+        height: 389
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -168,19 +183,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b43537c83875e2742b2fc937a380e278
+      spriteID: 5452094cb6e5e6648aa0291923062b24
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CaveWall2
+      name: Wall02
       rect:
         serializedVersion: 2
-        x: 430
-        y: 549
-        width: 140
-        height: 181
+        x: 90
+        y: 634
+        width: 84
+        height: 166
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -188,19 +203,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 04a8cedc305036347a2af7e04d8f3c52
+      spriteID: d3251511849d4fa49be4f0985ef5123a
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CaveFloor4
+      name: Corner01
       rect:
         serializedVersion: 2
-        x: 648
+        x: 326
         y: 538
-        width: 236
-        height: 127
+        width: 165
+        height: 154
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -208,19 +223,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a39397d32bbe4954e996658b31c493ce
+      spriteID: e7c75b334870f5c47b524ee87d339e08
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CaveFloor1
+      name: Entrance01
       rect:
         serializedVersion: 2
-        x: 137
-        y: 334
-        width: 197
-        height: 146
+        x: 624
+        y: 371
+        width: 98
+        height: 321
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -228,19 +243,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b34629cea6f90e54bb00e92936cc0fbc
+      spriteID: 71d71eeddb2ed9b4c8e4f2f7851f0bdd
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CaveFloor2
+      name: Corner02
       rect:
         serializedVersion: 2
-        x: 407
-        y: 302
-        width: 185
-        height: 197
+        x: 112
+        y: 495
+        width: 82
+        height: 81
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -248,58 +263,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4ff89cc728fe3c94ba9241fc7d45e916
+      spriteID: 8ec16f6f5cbcb2a4baee73aa78bea4c6
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CaveFloor3
+      name: Ramp01
       rect:
         serializedVersion: 2
-        x: 662
-        y: 368
-        width: 212
-        height: 106
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 22e737b54193b2a4fa047b5b15c0ba18
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CaveFloorAngle
-      rect:
-        serializedVersion: 2
-        x: 137
-        y: 98
-        width: 182
-        height: 160
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e8db04a4bf9bc1c48a1e884cfc529483
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CaveFloorCurve
-      rect:
-        serializedVersion: 2
-        x: 408
-        y: 98
-        width: 184
+        x: 246
+        y: 366
+        width: 159
         height: 161
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -308,19 +283,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7765a19eecea5724bac6071df4cd2f10
+      spriteID: 1f7900aedfa5c3b498fe20603c0de855
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Stalagmites
+      name: Ramp02
       rect:
         serializedVersion: 2
-        x: 708
-        y: 98
-        width: 171
-        height: 155
+        x: 444
+        y: 366
+        width: 160
+        height: 159
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -328,7 +303,107 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f92dd4fc1b88a4d4a82c2b50f78718d1
+      spriteID: 88f285da124a41740a68d9cb80cd5444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pillar03
+      rect:
+        serializedVersion: 2
+        x: 740
+        y: 18
+        width: 104
+        height: 478
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8cf08fb503e9dee42bb9b1294f0a953a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pillar04
+      rect:
+        serializedVersion: 2
+        x: 850
+        y: 18
+        width: 115
+        height: 478
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 426e303dfdb0f6245ab9c12a31ab88d1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pillar02
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 17
+        width: 174
+        height: 369
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b49efc4191938be4190ca6a9886ec63f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stalagmites01
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 114
+        width: 149
+        height: 135
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 052bb0ca98c13c043bc492199b9425e3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WallArt01
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 16
+        width: 303
+        height: 301
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d78cba217c451d42b515637241e1d55
       vertices: []
       indices: 
       edges: []

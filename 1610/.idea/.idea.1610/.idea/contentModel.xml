@@ -22,6 +22,7 @@
               <e p="LivesSwitch.cs" t="Include" />
               <e p="PlayerControl.cs" t="Include" />
               <e p="PlayerLives.cs" t="Include" />
+              <e p="SpriteFlip.cs" t="Include" />
               <e p="TriggerEventBehavior.cs" t="Include" />
               <e p="UpdateImageValue.cs" t="Include" />
               <e p="UpdatePlayerHealth.cs" t="Include" />
