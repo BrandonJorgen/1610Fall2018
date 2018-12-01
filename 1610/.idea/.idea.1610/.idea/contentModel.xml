@@ -14,6 +14,7 @@
               <e p="BasicAi.cs" t="Include" />
               <e p="CharacterMover.cs" t="Include" />
               <e p="DestroyObject.cs" t="Include" />
+              <e p="FailureEvents.cs" t="Include" />
               <e p="FloatData.cs" t="Include" />
               <e p="HealthAmount.cs" t="Include" />
               <e p="Instancing.cs" t="Include" />
@@ -29,8 +30,6 @@
               <e p="UpdateText.cs" t="Include" />
               <e p="ValueChange.cs" t="Include" />
               <e p="ValueCheckAndEvent.cs" t="Include" />
-              <e p="WeaponList.cs" t="Include" />
-              <e p="WeaponSwitch.cs" t="Include" />
             </e>
           </e>
           <e p="EventRepeat.cs" t="Include" />
