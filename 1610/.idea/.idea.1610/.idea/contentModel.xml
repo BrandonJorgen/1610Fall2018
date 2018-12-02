@@ -14,21 +14,22 @@
               <e p="BasicAi.cs" t="Include" />
               <e p="CharacterMover.cs" t="Include" />
               <e p="DestroyObject.cs" t="Include" />
+              <e p="EnemyAI.cs" t="Include" />
               <e p="FailureEvents.cs" t="Include" />
               <e p="FloatData.cs" t="Include" />
-              <e p="HealthAmount.cs" t="Include" />
               <e p="Instancing.cs" t="Include" />
               <e p="Inventory.cs" t="Include" />
-              <e p="ItemSwitch.cs" t="Include" />
-              <e p="LivesSwitch.cs" t="Include" />
+              <e p="ObectInstantiate.cs" t="Include" />
               <e p="PlayerControl.cs" t="Include" />
               <e p="PlayerLives.cs" t="Include" />
               <e p="SpriteFlip.cs" t="Include" />
+              <e p="TimedEvent.cs" t="Include" />
               <e p="TriggerEventBehavior.cs" t="Include" />
               <e p="UpdateImageValue.cs" t="Include" />
               <e p="UpdatePlayerHealth.cs" t="Include" />
               <e p="UpdateText.cs" t="Include" />
               <e p="ValueChange.cs" t="Include" />
+              <e p="ValueCheck.cs" t="Include" />
               <e p="ValueCheckAndEvent.cs" t="Include" />
             </e>
           </e>
@@ -38,7 +39,6 @@
           <e p="LocalVars.cs" t="Include" />
           <e p="Loops.cs" t="Include" />
           <e p="MouseEventBehavior.cs" t="Include" />
-          <e p="ObectInstantiate.cs" t="Include" />
           <e p="ObjectCollection.cs" t="Include" />
           <e p="PowerUpID.cs" t="Include" />
           <e p="Romrell" t="Include">

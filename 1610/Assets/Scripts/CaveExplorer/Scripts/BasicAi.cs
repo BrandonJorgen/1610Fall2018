@@ -4,23 +4,21 @@ using UnityEngine.AI;
 public class BasicAi : MonoBehaviour
 {
 
-	public Transform Destination;
-	public Transform FinalDestination;
+	public Transform DestinationOne, DestinationTwo;
 	private NavMeshAgent agent;
-	void Start ()
+
+	void Start()
 	{
 		agent = GetComponent<NavMeshAgent>();
 	}
-	
-	void Update ()
+
+	void Update()
 	{
-		if (Destination != null)
+		agent.SetDestination(DestinationTwo.position);
+		
+		if (agent.remainingDistance <= agent.stoppingDistance)
 		{
-			agent.destination = Destination.position;
-		}
-		else
-		{
-			agent.destination = FinalDestination.position;
+			agent.SetDestination(DestinationOne.position);
 		}
 	}
 }

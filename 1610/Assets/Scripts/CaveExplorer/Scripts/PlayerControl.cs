@@ -1,11 +1,12 @@
 ﻿using System.Collections;
 using UnityEngine;
 using UnityEngine.Events;
+using UnityEngine.UI;
 
 public class PlayerControl : MonoBehaviour
 {
 	private CharacterController controller;
-	public UnityEvent Moving, NotMoving, AttackDown, AttackUp;
+	public UnityEvent OnStart, Moving, NotMoving, AttackDown, AttackUp;
 	public float Gravity = 9.81f;
 	public float JumpSpeed = 3.0f;
 	public float MoveSpeed = 3.0f;
@@ -15,6 +16,7 @@ public class PlayerControl : MonoBehaviour
 	private void Start()
 	{
 		controller = GetComponent<CharacterController>();
+		OnStart.Invoke();
 	}
 
 	private void Update()
@@ -51,10 +53,6 @@ public class PlayerControl : MonoBehaviour
 		{
 			NotMoving.Invoke();
 		}
-		//USE WHISKEY EVENT HERE
-		//Gonna need a floatdata
-		//On press, -1 to floatdata
-		//display number using art assets
 	}
 
 	IEnumerator delayedEvent()

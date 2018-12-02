@@ -28,7 +28,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: BackLegAnchor
+    path: BackLeg
   - curve:
       serializedVersion: 2
       m_Curve:
@@ -44,7 +44,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: FrontLegAnchor
+    path: FrontLeg
   m_PositionCurves: []
   m_ScaleCurves: []
   m_FloatCurves: []
@@ -57,14 +57,14 @@ AnimationClip:
   m_ClipBindingConstant:
     genericBindings:
     - serializedVersion: 2
-      path: 3202405620
+      path: 221840883
       attribute: 4
       script: {fileID: 0}
       typeID: 4
       customType: 4
       isPPtrCurve: 0
     - serializedVersion: 2
-      path: 707657381
+      path: 2013694420
       attribute: 4
       script: {fileID: 0}
       typeID: 4
@@ -108,7 +108,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAnglesRaw.x
-    path: BackLegAnchor
+    path: BackLeg
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -127,7 +127,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAnglesRaw.y
-    path: BackLegAnchor
+    path: BackLeg
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -146,7 +146,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAnglesRaw.z
-    path: BackLegAnchor
+    path: BackLeg
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -165,7 +165,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAnglesRaw.x
-    path: FrontLegAnchor
+    path: FrontLeg
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -184,7 +184,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAnglesRaw.y
-    path: FrontLegAnchor
+    path: FrontLeg
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -203,7 +203,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAnglesRaw.z
-    path: FrontLegAnchor
+    path: FrontLeg
     classID: 4
     script: {fileID: 0}
   m_EulerEditorCurves:
@@ -213,8 +213,8 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    attribute: m_LocalEulerAngles.x
-    path: BackLegAnchor
+    attribute: m_LocalEulerAngles.z
+    path: BackLeg
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -224,17 +224,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.y
-    path: BackLegAnchor
-    classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve: []
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_LocalEulerAngles.z
-    path: BackLegAnchor
+    path: BackLeg
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -244,7 +234,17 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.x
-    path: FrontLegAnchor
+    path: BackLeg
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.x
+    path: FrontLeg
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -254,7 +254,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.y
-    path: FrontLegAnchor
+    path: FrontLeg
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -264,7 +264,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.z
-    path: FrontLegAnchor
+    path: FrontLeg
     classID: 4
     script: {fileID: 0}
   m_HasGenericRootTransform: 0
