@@ -24,7 +24,7 @@ GameObject:
   - component: {fileID: 75898771589409624}
   - component: {fileID: 114173258140995532}
   - component: {fileID: 65840786921402406}
-  - component: {fileID: 114718590214891912}
+  - component: {fileID: 114602641109733900}
   m_Layer: 0
   m_Name: FallingStalagtite
   m_TagString: Untagged
@@ -94,8 +94,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c48c51c65ac512247b78c1481fc5321a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  LifetimeSeconds: 0.575
---- !u!114 &114718590214891912
+  LifetimeSeconds: 0.55
+--- !u!114 &114602641109733900
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
@@ -103,15 +103,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 1913583923546548}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cc789d3a7cc00504c9bc7c4a68f02d74, type: 3}
+  m_Script: {fileID: 11500000, guid: ecf6bf70db14d1b4bac737ee428ea0d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Enable:
-    m_PersistentCalls:
-      m_Calls: []
-    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
-      Culture=neutral, PublicKeyToken=null
-  TriggerEnter:
+  TagName: Player
+  OnTriggerenter:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 11400000, guid: 75fcfb7e11ef80b46b0c654109221ea3, type: 2}
@@ -126,11 +122,6 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
-      Culture=neutral, PublicKeyToken=null
-  TriggerExit:
-    m_PersistentCalls:
-      m_Calls: []
     m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!212 &212556623158877710
@@ -167,7 +158,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 1
+  m_SortingOrder: -5
   m_Sprite: {fileID: 21300054, guid: 35a7b4b63821d264ba9d8dd2060c445a, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
