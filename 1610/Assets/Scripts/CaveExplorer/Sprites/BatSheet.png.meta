@@ -5,6 +5,9 @@ TextureImporter:
     21300000: WingBack
     21300002: Body
     21300004: WingForward
+    21300006: BackWing
+    21300008: Body
+    21300010: FrontWing
   externalObjects: {}
   serializedVersion: 5
   mipmaps:
@@ -85,12 +88,12 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: WingBack
+      name: BackWing
       rect:
         serializedVersion: 2
-        x: 245
+        x: 91
         y: 467
-        width: 96
+        width: 276
         height: 74
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -99,7 +102,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8d570f915b6e5f844a0acc9065199f0b
+      spriteID: 22a207de2843bcd479bb28406c7e46d5
       vertices: []
       indices: 
       edges: []
@@ -119,18 +122,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 838320d2f27b72f41bbc9eccb3ddb73d
+      spriteID: 411bf342561a8734fa13fd136d404364
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: WingForward
+      name: FrontWing
       rect:
         serializedVersion: 2
-        x: 654
+        x: 628
         y: 468
-        width: 150
+        width: 361
         height: 74
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -139,7 +142,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8db0909a74dbb9a4c86837802a1663b0
+      spriteID: 35aba031f0101174196074230995d421
       vertices: []
       indices: 
       edges: []

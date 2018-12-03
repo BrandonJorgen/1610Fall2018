@@ -6,16 +6,18 @@ using UnityEngine.UI;
 public class PlayerControl : MonoBehaviour
 {
 	private CharacterController controller;
-	public UnityEvent OnStart, Moving, NotMoving, AttackDown, AttackUp;
+	public UnityEvent OnStart, Moving, NotMoving, RightAttackDown, RightAttackUp, LeftAttackDown, LeftAttackUp;
 	public float Gravity = 9.81f;
 	public float JumpSpeed = 3.0f;
 	public float MoveSpeed = 3.0f;
 	private Vector3 position;
 	private Vector3 rotation;
+	private SpriteRenderer sprite;
 
 	private void Start()
 	{
 		controller = GetComponent<CharacterController>();
+		sprite = GetComponent<SpriteRenderer>();
 		OnStart.Invoke();
 	}
 
@@ -37,10 +39,15 @@ public class PlayerControl : MonoBehaviour
 		controller.Move(position * Time.deltaTime);
 
 		//Generic Attack
-		if (Input.GetKeyDown(KeyCode.LeftShift))
+		if (Input.GetKeyDown(KeyCode.LeftShift) && sprite.flipX == false)
 		{
-			AttackDown.Invoke();
-			Debug.Log("You are Pressing the Attack Button");
+			RightAttackDown.Invoke();
+			StartCoroutine(delayedEvent());
+		}
+
+		if (Input.GetKeyDown(KeyCode.LeftShift) && sprite.flipX)
+		{
+			LeftAttackDown.Invoke();
 			StartCoroutine(delayedEvent());
 		}
 		
@@ -58,6 +65,15 @@ public class PlayerControl : MonoBehaviour
 	IEnumerator delayedEvent()
 	{
 		yield return new WaitForSeconds(0.25f);
-		AttackUp.Invoke();
-	}
+
+		if (sprite.flipX == false)
+		{
+			RightAttackUp.Invoke();
+		}
+
+		if (sprite.flipX)
+		{
+			LeftAttackUp.Invoke();
+		}
+	} 
 }

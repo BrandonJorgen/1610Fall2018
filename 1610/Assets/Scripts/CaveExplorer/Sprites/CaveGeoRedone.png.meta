@@ -1,35 +1,21 @@
 fileFormatVersion: 2
-guid: 35a7b4b63821d264ba9d8dd2060c445a
+guid: 0fa0eabfa74ee4a44a1a76a1b21add15
 TextureImporter:
   fileIDToRecycleName:
-    21300000: StalagtiteLanding
-    21300002: CaveCorner1
-    21300004: CaveCorner2
-    21300006: CaveWall1
-    21300008: CaveWall2
-    21300010: CaveFloor4
-    21300012: CaveFloor1
-    21300014: CaveFloor2
-    21300016: CaveFloor3
-    21300018: CaveFloorAngle
-    21300020: CaveFloorCurve
-    21300022: Stalagmites
-    21300024: Wall01
-    21300026: Ground01
-    21300028: Ground02
-    21300030: Pillar01
-    21300032: Wall02
-    21300034: Corner01
-    21300036: Entrance01
-    21300038: Corner02
-    21300040: Ramp01
-    21300042: Ramp02
-    21300044: Pillar03
-    21300046: Pillar04
-    21300048: Pillar02
-    21300050: Stalagmites01
-    21300052: WallArt01
-    21300054: StalagtiteSingle
+    21300000: GeoRamp01
+    21300002: GeoWall01
+    21300004: GeoWall02
+    21300006: GeoFloor01
+    21300008: GeoFloor02
+    21300010: GeoCorner02
+    21300012: GeoPillar03
+    21300014: GeoRamp02
+    21300016: GeoEntrance01
+    21300018: GeoPillar01
+    21300020: GeoPillar02
+    21300022: GeoCorner01
+    21300024: GeoPillar04
+    21300026: GeoArt01
   externalObjects: {}
   serializedVersion: 5
   mipmaps:
@@ -110,313 +96,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Wall01
+      name: GeoRamp01
       rect:
         serializedVersion: 2
-        x: 80
-        y: 818
-        width: 102
-        height: 168
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 66e9036a3baa8654baec31c6ab81d43c
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Ground01
-      rect:
-        serializedVersion: 2
-        x: 301
-        y: 791
-        width: 161
-        height: 150
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 5094f23cd3e7a28468e46150ab159517
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Ground02
-      rect:
-        serializedVersion: 2
-        x: 512
-        y: 781
-        width: 161
-        height: 182
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e181279a71d18f94c96c9297371b7560
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Pillar01
-      rect:
-        serializedVersion: 2
-        x: 744
-        y: 527
-        width: 196
-        height: 389
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 5452094cb6e5e6648aa0291923062b24
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Wall02
-      rect:
-        serializedVersion: 2
-        x: 90
-        y: 634
-        width: 84
-        height: 166
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: d3251511849d4fa49be4f0985ef5123a
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Corner01
-      rect:
-        serializedVersion: 2
-        x: 326
-        y: 538
-        width: 165
-        height: 154
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e7c75b334870f5c47b524ee87d339e08
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Entrance01
-      rect:
-        serializedVersion: 2
-        x: 624
-        y: 371
-        width: 98
-        height: 321
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 71d71eeddb2ed9b4c8e4f2f7851f0bdd
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Corner02
-      rect:
-        serializedVersion: 2
-        x: 112
-        y: 495
-        width: 82
-        height: 81
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 8ec16f6f5cbcb2a4baee73aa78bea4c6
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Ramp01
-      rect:
-        serializedVersion: 2
-        x: 246
-        y: 366
-        width: 159
-        height: 161
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 1f7900aedfa5c3b498fe20603c0de855
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Ramp02
-      rect:
-        serializedVersion: 2
-        x: 444
-        y: 366
-        width: 160
-        height: 159
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 88f285da124a41740a68d9cb80cd5444
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Pillar03
-      rect:
-        serializedVersion: 2
-        x: 740
-        y: 18
-        width: 104
-        height: 478
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 8cf08fb503e9dee42bb9b1294f0a953a
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Pillar04
-      rect:
-        serializedVersion: 2
-        x: 850
-        y: 18
-        width: 115
-        height: 478
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 426e303dfdb0f6245ab9c12a31ab88d1
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Pillar02
-      rect:
-        serializedVersion: 2
-        x: 33
-        y: 17
-        width: 174
-        height: 369
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b49efc4191938be4190ca6a9886ec63f
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Stalagmites01
-      rect:
-        serializedVersion: 2
-        x: 217
-        y: 114
-        width: 149
-        height: 135
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 052bb0ca98c13c043bc492199b9425e3
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: WallArt01
-      rect:
-        serializedVersion: 2
-        x: 370
-        y: 16
-        width: 303
-        height: 301
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 2d78cba217c451d42b515637241e1d55
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: StalagtiteSingle
-      rect:
-        serializedVersion: 2
-        x: 325
-        y: 129
-        width: 37
-        height: 113
+        x: 70
+        y: 1404
+        width: 267
+        height: 268
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -424,7 +110,267 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 76df45d5ef2de164ea53dbe545eb2698
+      spriteID: ca3b9470fd733d64fa5677216fa0f4b6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GeoWall01
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 1406
+        width: 223
+        height: 280
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 047cff449c4f9e04b8584f5a16b6397e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GeoWall02
+      rect:
+        serializedVersion: 2
+        x: 597
+        y: 1400
+        width: 137
+        height: 280
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d56a61efb9963140bff02039278fba0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GeoFloor01
+      rect:
+        serializedVersion: 2
+        x: 809
+        y: 1412
+        width: 276
+        height: 247
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa65bd91061834747955405c045c6a2e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GeoFloor02
+      rect:
+        serializedVersion: 2
+        x: 1127
+        y: 1389
+        width: 258
+        height: 297
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9db8d97f86e73b409fe6b383cc81079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GeoCorner02
+      rect:
+        serializedVersion: 2
+        x: 1476
+        y: 1429
+        width: 129
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26633958c6a961149a7176a0bdb15ab2
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GeoPillar03
+      rect:
+        serializedVersion: 2
+        x: 1786
+        y: 1220
+        width: 163
+        height: 797
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 179c18ca05d996f45a4be4b516ad336a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GeoRamp02
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 1075
+        width: 275
+        height: 268
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 020aa6cf54aada348ad864c567ead7fd
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GeoEntrance01
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 811
+        width: 154
+        height: 532
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c6b1c5c1848a3e4281364fef3ad8294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GeoPillar01
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 704
+        width: 281
+        height: 616
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d63e882d818859b4681dce0f52c9494f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GeoPillar02
+      rect:
+        serializedVersion: 2
+        x: 1028
+        y: 710
+        width: 333
+        height: 648
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7867cfcd3c0cef4fb12dfe66880865f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GeoCorner01
+      rect:
+        serializedVersion: 2
+        x: 1441
+        y: 1080
+        width: 280
+        height: 255
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d161a62486253ee48afb81e2839d42bc
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GeoPillar04
+      rect:
+        serializedVersion: 2
+        x: 1760
+        y: 307
+        width: 221
+        height: 794
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f66ec3a00b205a41b6dae048a5a9f97
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GeoArt01
+      rect:
+        serializedVersion: 2
+        x: 808
+        y: 149
+        width: 498
+        height: 492
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04a535555901c0543a9f508eebdc349f
       vertices: []
       indices: 
       edges: []
@@ -432,7 +378,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 0e0cf36d3b1a4034d9612f55858787dc
+    spriteID: bb32a37026b31b6409e995fdc9c28e1e
     vertices: []
     indices: 
     edges: []

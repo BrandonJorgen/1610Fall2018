@@ -3,8 +3,9 @@ guid: 58d2a00ab945bd745bf33abc508762cb
 TextureImporter:
   fileIDToRecycleName:
     21300000: Body
-    21300002: Leg
+    21300002: FrontLeg
     21300004: Tail
+    21300006: BackLeg
   externalObjects: {}
   serializedVersion: 5
   mipmaps:
@@ -105,13 +106,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Leg
+      name: FrontLeg
       rect:
         serializedVersion: 2
-        x: 532
-        y: 465
-        width: 30
-        height: 58
+        x: 470
+        y: 458
+        width: 232
+        height: 108
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,10 +129,10 @@ TextureImporter:
       name: Tail
       rect:
         serializedVersion: 2
-        x: 804
-        y: 465
-        width: 83
-        height: 62
+        x: 570
+        y: 434
+        width: 319
+        height: 108
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -140,6 +141,26 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: ea767c90f87a5594fb6f67885eaa35cf
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BackLeg
+      rect:
+        serializedVersion: 2
+        x: 377
+        y: 458
+        width: 232
+        height: 108
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a62b71dce26307546a72294a6adf7d50
       vertices: []
       indices: 
       edges: []

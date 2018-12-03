@@ -1,28 +1,40 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEditor.Experimental.UIElements;
+﻿using Boo.Lang;
 using UnityEngine;
 
 public class EnemyAI : MonoBehaviour
 {
 
 	public float Speed = 3;
-	public Vector3 DestinationOne, DestinationTwo;
-	private Vector3 leftMovement, rightMovement;
+	public Transform DestinationOne, DestinationTwo;
+	public SpriteRenderer[] Sprites;
 	
-	// Use this for initialization
-	void Start ()
-	{
-		
-	}
-
 	void Update()
 	{
-		transform.Translate(Vector3.left);
-
-		if (Vector3.Distance(transform.position, DestinationOne) < 1)
+		if (DestinationOne.gameObject.activeSelf)
 		{
-			transform.Translate(0, 0, 0);
+			transform.Translate(Vector3.left * (Speed * Time.deltaTime));
+			DestinationTwo.gameObject.SetActive(true);
+		}
+
+		if (Vector3.Distance(transform.position, DestinationOne.position) < 1 || DestinationOne.gameObject.activeSelf == false)
+		{
+			DestinationOne.gameObject.SetActive(false);
+			for (int i = 0; i < Sprites.Length; i++)
+			{
+				Sprites[i].flipX = true;
+			}
+			transform.Translate(Vector3.right * (Speed * Time.deltaTime));
+
+			if (Vector3.Distance(transform.position, DestinationTwo.position) < 1)
+			{
+				DestinationOne.gameObject.SetActive(true);
+				DestinationTwo.gameObject.SetActive(false);
+				for (int i = 0; i < Sprites.Length; i++)
+				{
+					Sprites[i].flipX = false;
+				}
+				transform.Translate(Vector3.left * (Speed * Time.deltaTime));
+			}
 		}
 	}
 }
