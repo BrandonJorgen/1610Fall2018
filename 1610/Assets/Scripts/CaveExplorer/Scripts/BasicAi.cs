@@ -1,10 +1,12 @@
 ﻿using UnityEngine;
 using UnityEngine.AI;
+using UnityEngine.Events;
 
 public class BasicAi : MonoBehaviour
 {
 
-	public Transform DestinationOne, DestinationTwo;
+	public Transform DestinationOne;
+	public UnityEvent ReachedDestination;
 	private NavMeshAgent agent;
 
 	void Start()
@@ -14,11 +16,11 @@ public class BasicAi : MonoBehaviour
 
 	void Update()
 	{
-		agent.SetDestination(DestinationTwo.position);
-		
-		if (agent.remainingDistance <= agent.stoppingDistance)
+		agent.SetDestination(DestinationOne.position);
+
+		if (transform.position.x == DestinationOne.position.x)
 		{
-			agent.SetDestination(DestinationOne.position);
+			ReachedDestination.Invoke();
 		}
 	}
 }

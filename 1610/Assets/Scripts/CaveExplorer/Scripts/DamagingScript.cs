@@ -10,10 +10,12 @@ public class DamagingScript : MonoBehaviour
 	
 	IEnumerator OnTriggerEnter(Collider other)
 	{
-		if (other.gameObject.tag == "Player")
+		switch (other.gameObject.tag)
 		{
-			TriggerEnter.Invoke();
-			yield return new WaitForSeconds(0.5f);
+				case "Player":
+					TriggerEnter.Invoke();
+					yield return new WaitForSeconds(0.5f);
+					break;
 		}
 	}
 	

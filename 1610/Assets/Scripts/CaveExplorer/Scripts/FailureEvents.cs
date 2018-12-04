@@ -9,9 +9,9 @@ public class FailureEvents : MonoBehaviour
 	public UnityEvent PlayerDeath;
 	public FloatData ValueOne, ValueTwo;
 
-	private void ZeroHealth()
+	private void Update()
 	{
-		if (ValueOne == ValueTwo)
+		if (ValueOne.Value == ValueTwo.Value)
 		{
 			PlayerDeath.Invoke();
 		}
