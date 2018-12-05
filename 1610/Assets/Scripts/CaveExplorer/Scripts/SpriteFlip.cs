@@ -5,12 +5,11 @@ using UnityEngine;
 public class SpriteFlip : MonoBehaviour
 {
 
-	public SpriteRenderer[] Sprite; //turn into array
+	public SpriteRenderer[] Sprite;
 	
-	// Update is called once per frame
 	void Update () {
 		foreach (SpriteRenderer S in Sprite)
-		{
+         		{
 			if (Input.GetAxis("Horizontal") < 0)
 			{
 				for (int i = 0; i < Sprite.Length; i++)
