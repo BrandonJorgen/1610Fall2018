@@ -6,6 +6,6 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/Game/Playground.unity
+    path: Assets/CaveExplorer/Main.unity
     guid: f45b3e3152d3d4e4e831a8d516efc3db
   m_configObjects: {}

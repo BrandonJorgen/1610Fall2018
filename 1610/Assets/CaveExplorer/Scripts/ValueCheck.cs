@@ -51,12 +51,6 @@ public class ValueCheck : MonoBehaviour
 		
 		if (Input.GetKeyDown(KeyCode.E))
 		{
-
-			if (Value.Value >= 1 && Image.fillAmount == 1)
-			{
-				
-			}
-			
 			if ((Value.Value <= 5 && Value.Value > 0) && Image.fillAmount < 1)
 			{
 				HealthIncrease.Invoke();
